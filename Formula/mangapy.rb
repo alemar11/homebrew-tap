@@ -3,13 +3,13 @@ class Mangapy < Formula
 
   desc "Manga downloader"
   homepage "https://github.com/alemar11/mangapy"
-  url "https://github.com/alemar11/mangapy/archive/refs/tags/4.0.0.tar.gz"
-  sha256 "a3b1b6d47d3c3519ff0d86a5d6bbf88fe6a5d40e2ae9d1836c0c4f86ffbe1dd6"
+  url "https://github.com/alemar11/mangapy/archive/refs/tags/4.0.1.tar.gz"
+  sha256 "84a88dd48a3a5d1a8db9c2a69bc6d2648fddf9203b45719cf4350cba2589bebb"
   license "MIT"
 
   depends_on "libyaml"
   depends_on "pillow"
-  depends_on "python@3.13"
+  depends_on "python@3.14"
 
   resource "beautifulsoup4" do
     url "https://files.pythonhosted.org/packages/c3/b0/1c6a16426d389813b48d95e26898aff79abbde42ad353958ad95cc8c9b21/beautifulsoup4-4.14.3.tar.gz"
@@ -72,7 +72,7 @@ class Mangapy < Formula
   end
 
   def install
-    virtualenv_install_with_resources using: "python@3.13"
+    virtualenv_install_with_resources using: "python@3.14"
   end
 
   test do
