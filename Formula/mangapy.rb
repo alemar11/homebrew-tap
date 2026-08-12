@@ -7,6 +7,12 @@ class Mangapy < Formula
   sha256 "bcc4687696e452d0e1dc8615c15bf78e750e26b894fbc9bccc90c5d787a8f71c"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/alemar11/homebrew-tap/releases/download/mangapy-4.1.1"
+    sha256 cellar: :any, arm64_tahoe:  "475fe94d8b4c44bf205553b8dfdda064f5d6747b41af2c6c3322a5abe1ab5337"
+    sha256 cellar: :any, x86_64_linux: "7d92ef929dda1fc455b20cb3c3f58f5c14a0f675d45035b527b1d15ed3f8f405"
+  end
+
   depends_on "libyaml"
   depends_on "pillow"
   depends_on "python@3.14"
