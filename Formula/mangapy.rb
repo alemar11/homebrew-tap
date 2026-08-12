@@ -3,8 +3,8 @@ class Mangapy < Formula
 
   desc "Manga downloader"
   homepage "https://github.com/alemar11/mangapy"
-  url "https://github.com/alemar11/mangapy/archive/refs/tags/v4.1.0.tar.gz"
-  sha256 "7dd0f77c5edf5a149c5ca9554d7e59cb22080eee0b58195b57706be660fd06c2"
+  url "https://github.com/alemar11/mangapy/archive/refs/tags/v4.1.1.tar.gz"
+  sha256 "bcc4687696e452d0e1dc8615c15bf78e750e26b894fbc9bccc90c5d787a8f71c"
   license "MIT"
 
   depends_on "libyaml"
