@@ -8,9 +8,8 @@ class Mangapy < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/alemar11/homebrew-tap/releases/download/mangapy-4.1.1"
-    sha256 cellar: :any, arm64_tahoe:  "475fe94d8b4c44bf205553b8dfdda064f5d6747b41af2c6c3322a5abe1ab5337"
-    sha256 cellar: :any, x86_64_linux: "7d92ef929dda1fc455b20cb3c3f58f5c14a0f675d45035b527b1d15ed3f8f405"
+    root_url "https://github.com/alemar11/homebrew-tap/releases/download/mangapy-4.1.2"
+    sha256 cellar: :any, arm64_tahoe: "cc0074a6fc8aea666e60ef1f574cfeb89bc0460ea57544762f63163a1b62a0f4"
   end
 
   depends_on "libyaml"
